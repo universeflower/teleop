@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.001561] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.001658] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.094748] (-) TimerEvent: {}
+[0.196621] (-) TimerEvent: {}
+[0.300992] (-) TimerEvent: {}
+[0.402542] (-) TimerEvent: {}
+[0.517631] (-) TimerEvent: {}
+[0.622071] (-) TimerEvent: {}
+[0.727586] (-) TimerEvent: {}
+[0.830115] (-) TimerEvent: {}
+[0.931455] (-) TimerEvent: {}
+[1.033619] (-) TimerEvent: {}
+[1.138067] (-) TimerEvent: {}
+[1.238940] (-) TimerEvent: {}
+[1.344417] (-) TimerEvent: {}
+[1.448909] (-) TimerEvent: {}
+[1.551661] (-) TimerEvent: {}
+[1.653147] (-) TimerEvent: {}
+[1.757210] (-) TimerEvent: {}
+[1.861643] (-) TimerEvent: {}
+[1.962144] (-) TimerEvent: {}
+[2.066723] (-) TimerEvent: {}
+[2.170079] (-) TimerEvent: {}
+[2.270686] (-) TimerEvent: {}
+[2.374381] (-) TimerEvent: {}
+[2.475004] (-) TimerEvent: {}
+[2.577973] (-) TimerEvent: {}
+[2.682950] (-) TimerEvent: {}
+[2.786123] (-) TimerEvent: {}
+[2.887834] (-) TimerEvent: {}
+[2.991688] (-) TimerEvent: {}
+[3.092881] (-) TimerEvent: {}
+[3.193330] (-) TimerEvent: {}
+[3.304978] (-) TimerEvent: {}
+[3.408367] (-) TimerEvent: {}
+[3.509604] (-) TimerEvent: {}
+[3.610115] (-) TimerEvent: {}
+[3.713011] (-) TimerEvent: {}
+[3.814579] (-) TimerEvent: {}
+[3.918571] (-) TimerEvent: {}
+[3.971769] (turtlebot3_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/turtlebot3_teleop', 'build', '--build-base', '/home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/build', 'install', '--record', '/home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/install.log', '--install-scripts', '$base/lib/turtlebot3_teleop', '--single-version-externally-managed'], 'cwd': '/home/yangjunseok/turtlebot3_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'yangjunseok', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1144', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yangjunseok/gcamp_ros2_ws/install/turtlesim/lib:/home/yangjunseok/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/yangjunseok', 'OLDPWD': '/home/yangjunseok', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '822', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/yangjunseok/gcamp_ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'yangjunseok', 'JOURNAL_STREAM': '8:32414', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yangjunseok', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/yangjunseok-VirtualBox:@/tmp/.ICE-unix/1211,unix/yangjunseok-VirtualBox:/tmp/.ICE-unix/1211', 'INVOCATION_ID': 'c7a0a918d2da4d05a2a399546634e8a8', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/761e76c2_2803_4933_b9cc_5f5584b8fa98', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yangjunseok/gcamp_ros2_ws/install/turtlesim:/home/yangjunseok/gcamp_ros2_ws/install/py_topic_pkg:/home/yangjunseok/gcamp_ros2_ws/install/py_service_pkg:/home/yangjunseok/gcamp_ros2_ws/install/py_first_pkg:/home/yangjunseok/gcamp_ros2_ws/install/py_action_pkg:/home/yangjunseok/gcamp_ros2_ws/install/gcamp_gazebo:/home/yangjunseok/gcamp_ros2_ws/install/cpp_service_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_action_pkg:/home/yangjunseok/gcamp_ros2_ws/install/custom_interfaces:/home/yangjunseok/gcamp_ros2_ws/install/cpp_topic_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_service_tutorial:/home/yangjunseok/gcamp_ros2_ws/install/cpp_param_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_first_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/prefix_override:/home/yangjunseok/turtlebot3_teleop/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/yangjunseok/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/yangjunseok/gcamp_ros2_ws/install/turtlesim:/home/yangjunseok/gcamp_ros2_ws/install/gcamp_gazebo:/home/yangjunseok/gcamp_ros2_ws/install/cpp_service_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_action_pkg:/home/yangjunseok/gcamp_ros2_ws/install/custom_interfaces:/home/yangjunseok/gcamp_ros2_ws/install/cpp_topic_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_service_tutorial:/home/yangjunseok/gcamp_ros2_ws/install/cpp_param_pkg:/home/yangjunseok/gcamp_ros2_ws/install/cpp_first_pkg'}, 'shell': False}
+[4.029224] (-) TimerEvent: {}
+[4.142046] (-) TimerEvent: {}
+[4.242794] (-) TimerEvent: {}
+[4.358294] (-) TimerEvent: {}
+[4.461210] (-) TimerEvent: {}
+[4.562710] (-) TimerEvent: {}
+[4.663205] (-) TimerEvent: {}
+[4.774797] (-) TimerEvent: {}
+[4.878931] (-) TimerEvent: {}
+[4.983757] (-) TimerEvent: {}
+[5.088777] (-) TimerEvent: {}
+[5.191708] (-) TimerEvent: {}
+[5.292237] (-) TimerEvent: {}
+[5.351962] (turtlebot3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[5.360176] (turtlebot3_teleop) StdoutLine: {'line': b'writing build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO\n'}
+[5.363626] (turtlebot3_teleop) StdoutLine: {'line': b'writing dependency_links to build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt\n'}
+[5.366008] (turtlebot3_teleop) StdoutLine: {'line': b'writing entry points to build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt\n'}
+[5.368489] (turtlebot3_teleop) StdoutLine: {'line': b'writing requirements to build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt\n'}
+[5.369468] (turtlebot3_teleop) StdoutLine: {'line': b'writing top-level names to build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt\n'}
+[5.394354] (-) TimerEvent: {}
+[5.494848] (-) TimerEvent: {}
+[5.600238] (-) TimerEvent: {}
+[5.608561] (turtlebot3_teleop) StdoutLine: {'line': b"reading manifest file 'build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[5.622544] (turtlebot3_teleop) StdoutLine: {'line': b"writing manifest file 'build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[5.623416] (turtlebot3_teleop) StdoutLine: {'line': b'running build\n'}
+[5.625095] (turtlebot3_teleop) StdoutLine: {'line': b'running build_py\n'}
+[5.629038] (turtlebot3_teleop) StdoutLine: {'line': b'copying turtlebot3_teleop/turtlebot3_teleop_key.py -> /home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/build/lib/turtlebot3_teleop\n'}
+[5.629866] (turtlebot3_teleop) StdoutLine: {'line': b'running install\n'}
+[5.636107] (turtlebot3_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[5.651218] (turtlebot3_teleop) StdoutLine: {'line': b'copying /home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/turtlebot3_teleop_key.py -> /home/yangjunseok/turtlebot3_teleop/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop\n'}
+[5.654020] (turtlebot3_teleop) StdoutLine: {'line': b'byte-compiling /home/yangjunseok/turtlebot3_teleop/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/turtlebot3_teleop_key.py to turtlebot3_teleop_key.cpython-38.pyc\n'}
+[5.661888] (turtlebot3_teleop) StdoutLine: {'line': b'running install_data\n'}
+[5.664554] (turtlebot3_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.671607] (turtlebot3_teleop) StdoutLine: {'line': b"removing '/home/yangjunseok/turtlebot3_teleop/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-1.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.672429] (turtlebot3_teleop) StdoutLine: {'line': b'Copying build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/yangjunseok/turtlebot3_teleop/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-1.0.0-py3.8.egg-info\n'}
+[5.677777] (turtlebot3_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[5.700815] (-) TimerEvent: {}
+[5.760909] (turtlebot3_teleop) StdoutLine: {'line': b'Installing turtlebot3_teleop_key script to /home/yangjunseok/turtlebot3_teleop/install/turtlebot3_teleop/lib/turtlebot3_teleop\n'}
+[5.762029] (turtlebot3_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/install.log'\n"}
+[5.801413] (-) TimerEvent: {}
+[5.848713] (turtlebot3_teleop) CommandEnded: {'returncode': 0}
+[5.902550] (-) TimerEvent: {}
+[5.978751] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 0}
+[5.980454] (-) EventReactorShutdown: {}

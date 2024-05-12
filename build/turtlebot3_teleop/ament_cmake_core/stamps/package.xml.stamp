@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtlebot3_teleop</name>
+  <version>1.0.0</version>
+  <description>Provides keyboard-based remote control for TurtleBot3.</description>
+  <maintainer email="yangjunseok@todo.todo">yangjunseok</maintainer>
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/turtlebot3_teleop</url>
+  <url type="repository">https://github.com/ROBOTIS-GIT/turtlebot3</url>
+  <url type="bugtracker">https://github.com/ROBOTIS-GIT/turtlebot3/issues</url>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <build_depend>rclpy</build_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+</package>
+
+

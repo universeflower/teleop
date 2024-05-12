@@ -1,0 +1,11 @@
+[1.863s] Invoking command in '/home/yangjunseok/turtlebot3_teleop': PYTHONPATH=/home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/prefix_override:/home/yangjunseok/turtlebot3_teleop/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlebot3_teleop build --build-base /home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/build install --record /home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/install.log --install-scripts $base/lib/turtlebot3_teleop --single-version-externally-managed
+[2.420s] running egg_info
+[2.422s] creating build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[2.422s] writing build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[2.423s] writing dependency_links to build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[2.424s] writing entry points to build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[2.424s] writing requirements to build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[2.424s] writing top-level names to build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[2.444s] writing manifest file 'build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.524s] error: package directory 'turtlebot3_teleop' does not exist
+[2.562s] Invoked command in '/home/yangjunseok/turtlebot3_teleop' returned '1': PYTHONPATH=/home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/prefix_override:/home/yangjunseok/turtlebot3_teleop/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/turtlebot3_teleop build --build-base /home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/build install --record /home/yangjunseok/turtlebot3_teleop/build/turtlebot3_teleop/install.log --install-scripts $base/lib/turtlebot3_teleop --single-version-externally-managed
